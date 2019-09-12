@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Registrasi</title>
+
+    <style >
+ 
+
+    	 body{
+    height: 1500px;
+  }
+table, th, td {
+  border: 1px solid #66ffff;
+  
+}
+th, td {
+  padding: 5px;
+  text-align: left;    
+}
+    	
+    </style>
+    
+</head>
+<body>
+	<center>
+    <form method="post" action="biodata.html" >
+    	<h1 style="text-shadow: 2px 2px #99ccff">FORM REGISTRASI</h1>
+    	<hr style="width: 50%;border: solid #66ffff;">
+
+    	<table width="50%"> 
+        <tr>
+            <th>Nama Depan:</th>
+            <td><input type="text" name="nama" placeholder="Nama Depan..." /></td>
+        </tr>
+        <tr>
+            <th>Nama Belakang:</th>
+            <td><input type="text" name="nama" placeholder="Nama belakang..." /></td>
+        </tr>
+
+         <tr>
+            <th>NPM:</th>
+            <td><input type="text" name="password" placeholder="NPM..." /></td>
+        </tr>
+        <tr>
+            <th>Username:</th>
+            <td><input type="text" name="username" placeholder="Username..." /></td>
+        </tr>
+        <tr>
+            <th>Tanggal Lahir:</th>
+            <td><input type="date" name="date" placeholder="Tanggal Lahir..." /></td>
+        </tr>
+        <tr>
+            <th>Email:</th>
+            <td><input type="email" name="email" placeholder="Your email..." /></td>
+        </tr>
+        <tr>
+            <th>Password:</th>
+            <td><input type="password" name="password" placeholder="Passowrd..." /></td>
+        </tr>
+         <tr>
+            <th>Ulangi Password:</th>
+            <td><input type="password" name="password" placeholder="Ulangi Passowrd..." /></td>
+        </tr>
+        <tr>
+            <th>Jenis kelamin:</th>
+            <td><label><input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki-laki</label>
+            <label><input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan</label></td>
+        </tr>
+        <tr>
+            <th>Agama:</th>
+            <td><select name="agama">
+                <option value="islam">Islam</option>
+                <option value="kristen">Kristen</option>
+                <option value="hindu">Hindu</option>
+                <option value="budha">Budha</option>
+            </select></td>
+        </tr>
+        <tr>
+            <th>Biografi:</th>
+           <td> <textarea name="biografi"></textarea></td>
+        </tr>
+        <th>Bahasa Pemrograman Yang diminati</th>
+
+          <td><input type="checkbox" name="minat" value="Java"> Java
+          <input type="checkbox" name="minat" value="C++"> C++
+          <input type="checkbox" name="minat" value="PHP" checked> PHP
+           <input type="checkbox" name="minat" value="DLL"> lainnya</td>
+        <tr>
+            <td ><button style="background-color:#99ccff  " type="submit" name="submit" value="Daftar" >Daftar</button></td>
+        </tr>
+
+    </table>
+       
+    </form>
+ </center>
+</body>
+</html>
